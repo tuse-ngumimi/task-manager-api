@@ -71,7 +71,7 @@ const updateTask = asyncHandler(async (req, res) => {
       status: req.body.status || task.status,
       dueDate: req.body.dueDate || task.dueDate,
      },
-    { new: 'after', runValidators: true } // returns the updated version
+    { returnDocument: 'after', runValidators: true } // returns the updated version
   )
 
   res.status(200).json(updatedTask)
