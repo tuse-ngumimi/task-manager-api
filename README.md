@@ -54,8 +54,8 @@ task-api/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/tuse-ngumimi/task-api.git
-cd task-api
+git clone https://github.com/tuse-ngumimi/task-manager-api.git
+cd task-manager-api
 ```
 
 2. Install dependencies
