@@ -84,8 +84,9 @@ The server will start on `http://localhost:5000`
 ---
 
 ## Environment Variables
-                            
-|-------------------------------------------|
+
+| Variable     | Description                               |
+|--------------|-------------------------------------------|
 | `NODE_ENV`   | Environment (`development`/`production`)  |
 | `PORT`       | Port the server runs on                   |
 | `MONGO_URI`  | MongoDB Atlas connection string           |
