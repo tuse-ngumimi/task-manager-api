@@ -1,6 +1,6 @@
 
 const asyncHandler = require('express-async-handler')
-const Task = require('../model/taskModel')
+const Task = require('../models/taskModel')
 
 // Retrieve all tasks
 // GET /api/tasks
